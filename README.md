@@ -1,51 +1,12 @@
-# Recipe Finder
+# React + Vite
 
-A Recipe Sharing Platform built with React and Tailwind CSS. This platform allows users to browse, view, and add new recipes with ease.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- **Home Page**: Displays a list of recipes with images, titles, and summaries.
-- **Recipe Detail Page**: Shows detailed information about a recipe, including ingredients and instructions.
-- **Add Recipe Form**: Allows users to submit new recipes with validation.
-- **Responsive Design**: Works seamlessly on both mobile and desktop devices.
+Currently, two official plugins are available:
 
-## Technologies Used
-- **React**: A JavaScript library for building user interfaces.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **React Router**: For handling navigation and routing in the app.
-- **Vite**: A fast build tool for modern web development.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Screenshots
-![Home Page](https://via.placeholder.com/800x600)
-![Recipe Detail Page](https://via.placeholder.com/800x600)
-![Add Recipe Form](https://via.placeholder.com/800x600)
-Future Enhancements
-Add user authentication (login/signup functionality).
+## Expanding the ESLint configuration
 
-Integrate a backend to store recipes in a database (e.g., Firebase or Node.js).
-
-Add a search feature to filter recipes by title or ingredients.
-
-Improve the UI/UX with animations and transitions.
-
-Write unit tests for components using Jest and React Testing Library.
-
-Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-Fork the repository.
-
-Create a new branch for your feature or bugfix.
-
-Commit your changes and push to your branch.
-
-Submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-If you have any questions or feedback, feel free to reach out:
-
-Email: Abderrahmanesaghraoui@gamil.com
-
-GitHub: Abderrahmane saghraoui
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
